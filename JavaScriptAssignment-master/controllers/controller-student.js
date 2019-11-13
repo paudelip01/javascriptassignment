@@ -1,0 +1,15 @@
+exports.list=(req,res)=>{
+	res.send('list');
+};
+exports.create=(req,res)=>{
+	res.send('create');
+};
+exports.find=(req,res)=>{
+	res.send('find');
+};
+exports.delete=(req,res)=>{
+	res.send('delete');
+};
+exports.update=(req,res)=>{
+	res.send('update');
+};

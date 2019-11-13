@@ -1,0 +1,16 @@
+install nodejs
+
+1. create project folder
+2. cmd :-  npm init -y
+3. create index.js file in the project folder
+4. create models, controlles & routes folders
+5. cmd :- npm i express
+6. inside index.js
+	const express = require('express')
+	const app = express();
+	
+	example:- 
+	exports.getSum = (a,b) =>{
+		return a+b;
+	}
+
